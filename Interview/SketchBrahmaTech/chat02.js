@@ -9,5 +9,5 @@ function removeDuplicates(arr) {
   }
 
   let myArray = [1, 2, 2, 3, 4, 4, 4, 5];
-let uniqueArray = removeDuplicates(myArray);
-console.log(uniqueArray);
+  let uniqueArray = removeDuplicates(myArray);
+  console.log(uniqueArray);
