@@ -19,7 +19,7 @@ export default function App() {
     return count;
   };
   return (
-    <div className="App">
+    <div className="App"> 
       <button onClick={handleAddCircle}>Add Circle</button>
       <br />
       selected circles: {getSelectedCircles()}

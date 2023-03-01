@@ -10,11 +10,10 @@ function removeDuplicatesArray(arr){
             if(obj[element]){
                 obj[element] += 1;
             }else{
-                obj[element] = 1;
-                output.push(element);
-            }
+               obj[element] = 1;
+             output.push(element);
         }
-        return output;
     }
-    
+    return output;
+}
     console.log(removeDuplicatesArray([11,12,31,16,12,4,5,16,11,31]))
